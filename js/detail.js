@@ -50,30 +50,4 @@ document.getElementById("column").innerHTML = `  <div class=" mt-10">
   </div>`
 
 
-// function showContent(content){
-//    let result = ""
-//    for(let i=0 ; i<content.length ; i++){
-//     result += `  <div class="column1 mt-10">
-//     <h2 class="text-3xl font-bold py-5">${content[i].title}</h2>
-//     <div class="flex space-x-8 py-2">
-//       <span class="px-2 bg-[#FF7C7C] rounded-lg">${content[i].date}</span>
-//       <span>${content[i].short_description}</span>
-//     </div>
-//     <p class="pb-4">
-//     ${content[i].description}
-//     </p>
-//     <div><img class="w-full" src="${content[i].image}" alt=""></div>
-//   </div>`
-//    }
-//   return result
-// }
-
-
-
-// function render(elementId , content){
-//     const id = document.getElementById(elementId)
-//     if(id){
-//         id.innerHTML = content
-//     }
-// }
 
