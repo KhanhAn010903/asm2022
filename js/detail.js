@@ -37,7 +37,7 @@ const work = [
 const found = work.find(function(element){
   return element.id == id
 }) 
-document.getElementById("column").innerHTML = `  <div class=" mt-10">
+document.getElementById("column").innerHTML = `  <div class=" mt-5">
     <h2 class="text-3xl font-bold py-5">${found.title}</h2>
     <div class="flex space-x-8 py-2">
       <span class="px-2 bg-[#FF7C7C] rounded-lg">${found.date}</span>

@@ -55,21 +55,19 @@ const work = [
 
 ]
 function showUser(user) {
-  let result = ` <section class="info py-10">
-   <div class="max-w-6xl mx-auto px-5">
-       <div class="grid grid-cols-1 md:grid-cols-3">
-           <div class="md:col-span-2 order-2 md:order-1">
-               <h2 class="text-3xl md:text-5xl font-bold mt-10 md:mt-0 md:leading-[60px]">${user.name}</h2>
-               <h2 class="text-3xl md:text-5xl font-bold mt-10 md:mt-0 md:leading-[60px]">${user.job}</h2>
-               <p class="text-base my-5">${user.description}</p>
-               <a href="" class="inline-block bg-red-500 py-5 px-10 rounded-sm text-white">Download Resume</a>
-           </div>
-           <div class="md:col-span-1 order-1 md:order-2">
-               <img class="md:ml-auto md:mr-0 mx-auto rounded-full" src="${user.img}" alt="">
-           </div>
-       </div>
-   </div>
-</section>`
+  let result = ` <div class="max-w-6xl mx-auto px-5">
+        <div class="grid grid-cols-1 md:grid-cols-3">
+            <div class="md:col-span-2 order-2 md:order-1">
+                <h2 class="text-[44px] text-center md:text-left md:text-[44px] font-bold mt-10 md:mt-0 md:leading-[60px]">${user.name} <br>
+                ${user.job}</h2>
+                <p class="text-[16px] my-5 text-center md:text-left">${user.description}</p>
+                <div class="flex justify-center md:justify-start"><a href="" class="inline-block bg-red-500 py-5 px-10 rounded-sm text-white text-[20px]">Download Resume</a></div>
+            </div>
+            <div class="md:col-span-1 order-1 md:order-2">
+                <img class="md:ml-auto md:mr-0 mx-auto rounded-full" src="${user.img}" alt="">
+            </div>
+        </div>
+    </div>`
 
   return result
 }
@@ -79,17 +77,17 @@ function showUser(user) {
 function showPost(post) {
   let result = ""
   for (let i = 0; i < post.length; i++) {
-    result += ` <div class="bg-white px-5 py-8">
-       <h3 class="mb-5"><a href="" class="text-2xl font-bold">${post[i].title}</a></h3>
-       <div class="flex space-x-4 mb-5">
-           <span>${post[i].date}</span>
-           <span>|</span>
-           <span>${post[i].short_description}</span>
-       </div>
-       <p>
-       ${post[i].description}
-       </p>
-   </div>`
+    result += `  <div class="bg-white px-5 py-8">
+    <h3 class="mb-5"><a href="" class="text-[26px] font-bold">${post[i].title}</a></h3>
+    <div class="flex space-x-4 mb-5">
+        <span class="text-[18]">${post[i].date}</span>
+        <span>|</span>
+        <span class="text-[18]">${post[i].short_description}</span>
+    </div>
+    <p class="text-[16px]">
+    ${post[i].description}
+    </p>
+</div>`
   }
   return result
 }
@@ -98,19 +96,19 @@ function showPost(post) {
 function showWork(work){
   let result=""
   for(let i=0 ; i<work.length ; i++){
-    result += ` <div class="project-item grid md:grid-cols-[246px,auto] gap-8 border-b py-8">
+    result +=` <div class="project-item grid md:grid-cols-[246px,auto] gap-8 border-b py-5">
     <div class="">
         <img src="${work[i].image}" alt="" class="rounded-lg w-full">
     </div>
     <div>
         <div>
-            <h3><a href="detail.html?id=${work[i].id}" class="text-[30px] font-bold">${work[i].name}</a></h3>
+            <h3><a href="./detail.html?id=${work[i].id}" class="text-[30px] font-bold text-[#21243D]">${work[i].name}</a></h3>
         </div>
         <div class="flex space-x-4 items-center py-5">
             <span class="inline-block bg-[#142850] py-1 px-2 text-white rounded-full">${work[i].date}</span>
-            <span>${work[i].short_description}</span>
+            <span class="text-[20px]">${work[i].short_description}</span>
         </div>
-        <p>
+        <p class="text-[16px]">
         ${work[i].description}
         </p>
     </div>
