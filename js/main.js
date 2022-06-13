@@ -105,8 +105,8 @@ function showWork(work){
             <h3><a href="./detail.html?id=${work[i].id}" class="text-[30px] font-bold text-[#21243D]">${work[i].name}</a></h3>
         </div>
         <div class="flex space-x-4 items-center py-5">
-            <span class="inline-block bg-[#142850] py-1 px-2 text-white rounded-full">${work[i].date}</span>
-            <span class="text-[20px]">${work[i].short_description}</span>
+            <span class="inline-block bg-[#142850] py-1 px-2 text-white rounded-full font-bold">${work[i].date}</span>
+            <span class="text-[20px] text-[#8695A4]">${work[i].short_description}</span>
         </div>
         <p class="text-[16px]">
         ${work[i].description}

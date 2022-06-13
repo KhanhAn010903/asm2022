@@ -35,10 +35,10 @@ function showContent(listContent){
     for(let i=0 ; i<listContent.length ; i++){
         result += `   <div class="item py-8  border-b">
         <h3 class="py-5"><a href="" class="text-[30px] font-bold">${listContent[i].title}</a></h3>
-        <div class="flex space-x-4">
-          <span class="text-[20px]">${listContent[i].date}</span>
+        <div class="flex space-x-4 py-2">
+          <span class="text-[15px] md:text-[20px] font-bold">${listContent[i].date}</span>
           <span>|</span>
-          <span class="text-[20px]">${listContent[i].short_description}</span>
+          <span class="text-[15px] md:text-[20px] text-[#8695A4]">${listContent[i].short_description}</span>
         </div>
         <p class="text-[16px]">
         ${listContent[i].description}
