@@ -61,7 +61,7 @@ function showUser(user) {
                 <h2 class="text-[44px] text-center md:text-left md:text-[44px] font-bold mt-10 md:mt-0 md:leading-[60px]">${user.name} <br>
                 ${user.job}</h2>
                 <p class="text-[16px] my-5 text-center md:text-left">${user.description}</p>
-                <div class="flex justify-center md:justify-start"><a href="" class="inline-block bg-red-500 py-5 px-10 rounded-sm text-white text-[20px]">Download Resume</a></div>
+                <div class="flex justify-center md:justify-start"><a href="" class="inline-block bg-red-500 py-3 px-8 rounded-sm text-white text-[20px]">Download Resume</a></div>
             </div>
             <div class="md:col-span-1 order-1 md:order-2">
                 <img class="md:ml-auto md:mr-0 mx-auto rounded-full" src="${user.img}" alt="">
