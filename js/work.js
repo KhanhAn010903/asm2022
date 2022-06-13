@@ -6,7 +6,7 @@ document.querySelector("#button").onclick = () =>{
 const work = [
     {
       id:1,
-      image: "images/Rectangle 30.jpg",
+      image: "https://res.cloudinary.com/https-asm2022-psi-vercel-app/image/upload/v1655086731/images/Rectangle_30_lcybdo.jpg",
       name: "Designing Dashboards",
       date: "2020",
       short_description: "Designing Dashboards",
@@ -14,7 +14,7 @@ const work = [
     },
     { 
       id:2,
-      image: "images/Rectangle 32.jpg",
+      image: "https://res.cloudinary.com/https-asm2022-psi-vercel-app/image/upload/v1655086731/images/Rectangle_32_dwu7p5.jpg",
       name: "Designing Dashboards",
       date: "2020",
       short_description: "Designing Dashboards",
@@ -22,7 +22,7 @@ const work = [
     },
     { 
       id:3,
-      image: "images/Rectangle 34.jpg",
+      image: "https://res.cloudinary.com/https-asm2022-psi-vercel-app/image/upload/v1655086731/images/Rectangle_34_guufie.jpg",
       name: "Designing Dashboards",
       date: "2020",
       short_description: "Designing Dashboards",
