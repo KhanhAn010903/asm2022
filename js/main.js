@@ -39,17 +39,17 @@ const work = [
   {
     id:2,
     image: "https://res.cloudinary.com/https-asm2022-psi-vercel-app/image/upload/v1655086731/images/Rectangle_32_dwu7p5.jpg",
-    name: "Designing Dashboards",
+    name: "Vibrant Portraits of 2020",
     date: "2020",
-    short_description: "Designing Dashboards",
+    short_description: "Typography",
     description: "   Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniamconsequat sunt nostrud amet.",
   },
   {
     id:3,
     image: "https://res.cloudinary.com/https-asm2022-psi-vercel-app/image/upload/v1655086731/images/Rectangle_34_guufie.jpg",
-    name: "Designing Dashboards",
+    name: "36 Days of Malayalam type",
     date: "2020",
-    short_description: "Designing Dashboards",
+    short_description: "Illustration",
     description: "   Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniamconsequat sunt nostrud amet.",
   },
 
