@@ -14,7 +14,7 @@ const work = [
     date : "2020",
     short_description : "Dashboard, User Experience Design",
     description : "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-    image : "images/Rectangle 4.png"
+    image : "https://res.cloudinary.com/https-asm2022-psi-vercel-app/image/upload/v1655086730/images/Rectangle_4_hoodu8.png"
 },
 {
   id:2,
@@ -22,7 +22,7 @@ const work = [
   date : "2020",
   short_description : "Dashboard, User Experience Design",
   description : "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-  image : "images/Rectangle 5.png"
+  image : "https://res.cloudinary.com/https-asm2022-psi-vercel-app/image/upload/v1655086731/images/Rectangle_5_eaqbns.png"
 },
 {
   id:3,
@@ -30,7 +30,7 @@ const work = [
   date : "2020",
   short_description : "Dashboard, User Experience Design",
   description : "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-  image : "images/Rectangle 6.png"
+  image : "https://res.cloudinary.com/https-asm2022-psi-vercel-app/image/upload/v1655086730/images/Rectangle_6_xhmxz8.png"
 }
 ]
   
